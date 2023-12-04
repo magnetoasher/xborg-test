@@ -6,7 +6,6 @@
     "node": true
   },
   "extends": [
-    "airbnb",
     "plugin:react/recommended",
     "plugin:@next/next/recommended",
     "prettier",
