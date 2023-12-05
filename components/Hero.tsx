@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import CustomButton from '@/components/Buttons';
 
 const Hero = () => {
-  function ScrollEffect(e: any): void {
+  function ScrollEffect(e: React.MouseEvent<HTMLAnchorElement>): void {
     e.preventDefault();
     const contentElement = document.getElementById('content');
     if (contentElement) {
@@ -177,14 +177,7 @@ const Hero = () => {
               }}
             >
               <CustomButton
-                style={{
-                  width: '48px',
-                  height: '48px',
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                }}
-                text={
+                content={
                   <Image
                     src="/assets/img/group.svg"
                     width={20}
@@ -192,6 +185,13 @@ const Hero = () => {
                     alt="lock"
                   />
                 }
+                style={{
+                  width: '48px',
+                  height: '48px',
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                }}
               />
             </motion.div>
 
@@ -204,7 +204,7 @@ const Hero = () => {
                 y: 0,
               }}
             >
-              <CustomButton text="Soulbound Launchpad" />
+              <CustomButton content="Soulbound Launchpad" />
             </motion.div>
             <motion.div
               initial={{ y: 50, opacity: 0 }}
@@ -215,8 +215,8 @@ const Hero = () => {
               }}
               className="flex justify-items-center mt-3"
             >
-              <CustomButton text="Soulbound Launchpad" />
-              <CustomButton text="Soulbound Launchpad" />
+              <CustomButton content="Soulbound Launchpad" />
+              <CustomButton content="Soulbound Launchpad" />
             </motion.div>
           </div>
         </motion.div>

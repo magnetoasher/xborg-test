@@ -79,9 +79,9 @@ const NewGaming: React.FC<NewGamingProps> = ({
           className={`text-[14px] text-[#CACACE] leading-[20px] bg-transparent mt-8 max-w-[380px]`}
         >
           At the core of the XBorg Data Graph Protocol lies a dynamic and
-          interconnected network of gaming profiles. Each player's profile is
-          represented as a unique ERC-721 NFT, complete with metadata unique to
-          their gaming journey.{' '}
+          interconnected network of gaming profiles. Each player&apos;s profile
+          is represented as a unique ERC-721 NFT, complete with metadata unique
+          to their gaming journey.{' '}
         </motion.p>
       </div>
       <div className="md:w-1/2 mt-[8vh] md:mt-0 w-full grid sm:grid-cols-2 gap-6 bg-transparent">
