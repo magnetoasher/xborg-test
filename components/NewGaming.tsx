@@ -18,7 +18,7 @@ const NewGaming: React.FC<NewGamingProps> = ({
         <>
           <span className="text-white bg-transparent">{` [ `}</span>
           {value.map((item, index) => (
-            <span key={index}>
+            <span key={index} className="bg-transparent">
               <span className="bg-transparent">{`"${item}"`}</span>
               {index !== value.length - 1 && (
                 <span className="text-white bg-transparent">{`, `}</span>
