@@ -5,265 +5,209 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
 
 @font-face {
-    font-family: 'Integral CF';
-    src: url(/assets/font/integralcf.ttf) format("truetype");
- }
-
-
-*, body{
-    font-family: 'Lexend', sans-serif;
-    background-color: #000000;
+  font-family: 'Integral CF';
+  src: url(/assets/font/integralcf.ttf) format('truetype');
 }
-body{
+
+*,
+body {
+  font-family: 'Lexend', sans-serif;
+  background-color: #000000;
+}
+body {
   overflow-x: hidden;
-
 }
-
 
 ::-webkit-scrollbar {
   width: 0px;
 }
 
-.font-integral{
+.font-integral {
   font-family: 'Integral CF';
 }
-.btn-explore{
-    width: 134px;
-    height: 48px;
-    color: #E4E4E6;
-    border: 1px solid transparent;
-    border-radius: 8px;
-    background-image: linear-gradient(#0D0D0D, #0D0D0D), 
-    radial-gradient(85.42% 238.45% at 59.7% 50%, #EB3A4A 0%, rgba(235, 58, 74, 0) 100%);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
+.btn-explore {
+  width: 134px;
+  height: 48px;
+  color: #e4e4e6;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-image: linear-gradient(#0d0d0d, #0d0d0d),
+    radial-gradient(
+      85.42% 238.45% at 59.7% 50%,
+      #eb3a4a 0%,
+      rgba(235, 58, 74, 0) 100%
+    );
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
-.card-border{
+.card-border {
   border: 1px solid #343434;
   cursor: pointer;
 }
-.card-border:hover{
+.card-border:hover {
   -webkit-box-shadow: 0px 0px 15px #343434c0;
-  box-shadow: 0px 0px 15px #343434c0; 
+  box-shadow: 0px 0px 15px #343434c0;
 }
 
+.btn-intro {
+  width: 194px;
+  height: 48px;
 
-.btn-intro{
-    width: 194px;
-    height: 48px;
-    
-font-size: 14px;
-font-weight: 400;
-    border: 1px solid transparent;
-    border-radius: 360px;
-    background-image: 
-    linear-gradient(0deg, #080808, #080808),
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid transparent;
+  border-radius: 360px;
+  background-image: linear-gradient(0deg, #080808, #080808),
     linear-gradient(93.23deg, #868686 -1.74%, rgba(67, 67, 67, 0.152) 78.61%);
-    
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    /* transition: transform 0.3s ease; */
 
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
 .btn-intro:hover {
   transform: scale(1.05);
   padding-right: 1px;
 }
-.special-btn:hover{
+.special-btn:hover {
   background: #eb3a4a80 !important;
-  border: 1px solid #EB3A4A !important;
+  border: 1px solid #eb3a4a !important;
   z-index: 99;
 }
-.btn_bg{
+.btn_bg {
   background: #eb3a4a80 !important;
 }
-.special-btn:hover p{
-  color: #EB3A4A !important;
+.special-btn:hover p {
+  color: #eb3a4a !important;
 }
 
-
-
-.btn-border{
-    background-image: 
-    linear-gradient(0deg, #080808, #080808),
-/* linear-gradient(0deg, rgba(52, 52, 52, 0.5), rgba(52, 52, 52, 0.5)), */
-/* linear-gradient(270deg, #868686 -15.29%, rgba(0, 0, 0, 0) 57.65%); */
-
-linear-gradient(90deg, #1A1A1A 0%, #ABABAB 102.73%),
-                   linear-gradient(88.95deg, #FFFFFF 80.46%, rgba(255, 255, 255, 0) 112.56%);
+.btn-border {
+  background-image: linear-gradient(0deg, #080808, #080808),
+    linear-gradient(90deg, #1a1a1a 0%, #ababab 102.73%),
+    linear-gradient(88.95deg, #ffffff 80.46%, rgba(255, 255, 255, 0) 112.56%);
 
   background-origin: border-box;
-    background-clip: content-box, border-box;
-    border: 1px solid transparent;
-
-  }
-
-/* .btn-lock{
-    width: 48px;
-    height: 48px;
-    
-text-align: center;
-
-display: flex;
-justify-content: center;
-align-items: center;
-    border: 1px solid transparent;
-    border-radius: 360px;
-    background-image: 
-    linear-gradient(0deg, #080808, #080808),
-    linear-gradient(93.23deg, #868686 -1.74%, rgba(67, 67, 67, 0.152) 78.61%);
-    transition: transform 0.3s ease;
-cursor: pointer;
-    background-origin: border-box;
-    background-clip: content-box, border-box;
+  background-clip: content-box, border-box;
+  border: 1px solid transparent;
 }
 
-.btn-lock:hover {
-  transform: scale(1.05); 
+.btn-discord {
+  width: 180px;
+  height: 56px;
+  padding: 8px, 16px, 8px, 16px;
+  background: #eb3a4a;
 
-} */
-
-
-.btn-discord{
-    width: 180px;
-height: 56px;
-padding: 8px, 16px, 8px, 16px;
-background: #EB3A4A;
-
-border-radius: 8px;
-transition: all .3s ease-out;
-
-
+  border-radius: 8px;
+  transition: all 0.3s ease-out;
 }
 
 .btn-discord:hover {
-  -webkit-box-shadow: 0px 0px 10px #EB3A4A;
-  box-shadow: 0px 0px 10px #EB3A4A;
+  -webkit-box-shadow: 0px 0px 10px #eb3a4a;
+  box-shadow: 0px 0px 10px #eb3a4a;
 }
 
-
-.scrolldown{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.scrolldown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
-.scrolldown img{
-    transition: all .25s ease;
-  }
-  .scrolldown p{
-    transition: all .25s ease;
-    margin: 3px;
-  }
-  .scrolldown:hover p{
-    font-size: 1rem;
-  }
-  
-  
-  .scrolldown:hover img{
-    width: 30px !important;
-  }
-  
-.text-gradient{
-    background: radial-gradient(circle at center,#eb3a4a,#2b2b2b);
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
+.scrolldown img {
+  transition: all 0.25s ease;
+}
+.scrolldown p {
+  transition: all 0.25s ease;
+  margin: 3px;
+}
+.scrolldown:hover p {
+  font-size: 1rem;
 }
 
-.heading{
-    font-family: 'Integral CF' !important;
-    font-weight: 400;
-    font-size: 4rem;
-    line-height: 64px;
-    word-break: break-word;
-    margin-right: 10px;
+.scrolldown:hover img {
+  width: 30px !important;
 }
 
+.text-gradient {
+  background: radial-gradient(circle at center, #eb3a4a, #2b2b2b);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 
-
-
+.heading {
+  font-family: 'Integral CF' !important;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 64px;
+  word-break: break-word;
+  margin-right: 10px;
+}
 
 .overlappingImages {
-    width: 100%; /* Set your desired width */
-    height: 100%; /* Set your desired height */
-    position: relative; /* Position relative for absolute positioning of background images */
+  width: 100%; /* Set your desired width */
+  height: 100%; /* Set your desired height */
+  position: relative; /* Position relative for absolute positioning of background images */
+}
+
+.overlappingImages::before,
+.overlappingImages::after {
+  content: '';
+  position: absolute;
+  top: -150px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.overlappingImages::before {
+  background-image: url('/assets/img/bubbles.png');
+  z-index: 1;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.overlappingImages::after {
+  background-image: url('/assets/img/shapes.png');
+
+  background-repeat: no-repeat;
+  z-index: 2;
+  background-size: contain;
+  background-position: 50% 60%;
+}
+
+.overlappingImages {
+  background-image: url('/assets/img/x.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: contain;
+}
+
+@media (min-width: 768px) {
+  .heading::before {
+    content: 'Game-changing infrastructure';
   }
-  
-  .overlappingImages::before,
-  .overlappingImages::after {
-    content: "";
-    position: absolute;
-    top: -150px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    /* background-size: auto; */
+  .the_text::before {
+    content: 'A decentralised, non-custodial social graph, empowering players to take full ownership of their gaming identities and enabling developers to build next-gen applications. ';
   }
-  
-  .overlappingImages::before {
-    background-image: url('/bubbles.png');
-    z-index: 1; 
-    background-position: top center; 
-    background-repeat: no-repeat;
-
+}
+@media (max-width: 768px) {
+  .heading::before {
+    content: 'Empowering players & fans';
   }
-  
-  .overlappingImages::after {
-    background-image: url('/shapes.png'); 
-
-    background-repeat: no-repeat;
-    z-index: 2; 
-    background-size: contain;
-    background-position: 50% 60%;
+  .the_text::before {
+    content: 'We’re a global team on a mission to build the next-generation of gaming, where players and fans experience ownership, and governance and are rewarded for their contributions.';
   }
-  
-  .overlappingImages {
-    background-image: url('/x.png'); 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position: contain;
-    /* background-image: url('/x.png'), url('/shapes.png'), url('/bubbles.png');
-    background-size: contain, auto, auto;
-    background-position: center, 50% 60%, top center;
-    background-repeat: no-repeat, no-repeat, no-repeat; */
+  .heading {
+    line-height: 2.5rem;
+    font-size: 2.5rem;
   }
 
-  
-
-
-
-@media (min-width: 768px){
-.heading::before{
-    content: "Game-changing infrastructure";
-
-}
-.the_text::before{
-    content: "A decentralised, non-custodial social graph, empowering players to take full ownership of their gaming identities and enabling developers to build next-gen applications. ";
-
-}
-
-}
-@media (max-width: 768px){
-.heading::before{
-    content: "Empowering players & fans";
-}
-.the_text::before{
-    content: "We’re a global team on a mission to build the next-generation of gaming, where players and fans experience ownership, and governance and are rewarded for their contributions.";
-}
-.heading{
-line-height: 2.5rem;
-font-size: 2.5rem;
-}
-
-.intro-txt{
+  .intro-txt {
     font-size: 12px !important;
-}
-.btn-intro{
+  }
+  .btn-intro {
     width: 150px;
-}
+  }
 }
