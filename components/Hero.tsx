@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import CustomButton from '@/components/Buttons';
+import Button from '@/components/Buttons';
 
 const Hero = () => {
   function ScrollEffect(e: React.MouseEvent<HTMLAnchorElement>): void {
@@ -176,7 +176,7 @@ const Hero = () => {
                 y: 0,
               }}
             >
-              <CustomButton
+              <Button
                 content={
                   <Image
                     src="/assets/img/group.svg"
@@ -204,7 +204,7 @@ const Hero = () => {
                 y: 0,
               }}
             >
-              <CustomButton content="Soulbound Launchpad" />
+              <Button content="Soulbound Launchpad" />
             </motion.div>
             <motion.div
               initial={{ y: 50, opacity: 0 }}
@@ -215,8 +215,8 @@ const Hero = () => {
               }}
               className="flex justify-items-center mt-3"
             >
-              <CustomButton content="Soulbound Launchpad" />
-              <CustomButton content="Soulbound Launchpad" />
+              <Button content="Soulbound Launchpad" />
+              <Button content="Soulbound Launchpad" />
             </motion.div>
           </div>
         </motion.div>
